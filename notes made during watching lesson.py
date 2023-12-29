@@ -75,14 +75,14 @@ a=int(a)
 print(type(a))
 
 #print("once upon a time there was a boy named raghav who was the most handsome boy in the world")
-story="i am the most handsome boy in the world" #this is just for test
+story="" #this is just for test
 print(len(story))#it is used to find the number of a perticular character used in a perticular sentence 
 print(story.endswith("d")) #it is used to find that the end letter of a story is true or false
 print(story.count("d"))#it is used to count the number of a perticular letter used in a perticular sentence
-print(story.count("handsome"))#it is used to count the number of a perticular word in in a perticular sentence 
+print(story.count(""))#it is used to count the number of a perticular word in in a perticular sentence 
 print(story.capitalize())#it converts the first letter of a sentence in a capital letter(if not done)automatically
-print(story.find("handsome"))#it finds that on which number that character is
-print(story.replace("handsome", "the god of minecraft"))#it replaces a word or a letter
+print(story.find(""))#it finds that on which number that character is
+print(story.replace("", ""))#it replaces a word or a letter
 
 a=("Raghav is good.\n He is very good")
 print(a)
@@ -103,7 +103,7 @@ c=(34,"34",False,6.5)
 print(c)
 
 #list slicing
-friends=["yuvraj","kavish","ramashree","himank"]
+friends=["yuvraj","kavish","himank"]
 print(friends[0:4])
 
 l1=[1,23,7,34,33]
@@ -164,19 +164,18 @@ print(mydict.values())#pints the values of the dictionary'
 print(mydict.items())#pints the items of the dictionary'
 print(mydict)
 updatedict={
-"yuvraj":"friend",
-"ramashree":"friend"}
+"yuvraj":"friend"}
 
 mydict.update(updatedict)#updates the dictionary by adding key value pairs from updatedict
 print(mydict)
 
 #diffrence between mydict.get andonly mydict command
 
-#print(mydict.get("ramashree 2"))#returns none as ramashree2 is not present in the dictionary
-#print(mydict["ramashree2"])#throw an error as ramashree2 is not present in the dictionary
+#print(mydict.get(""))#returns none as  is not present in the dictionary
+#print(mydict[""])#throw an error as  is not present in the dictionary
 
-print(mydict.get("ramashree"))#prints value associated with key "ramashree"
-print(mydict["ramashree"])#prints value associated with key "ramashree"
+print(mydict.get("suuuu"))#prints value associated with key ""
+print(mydict["suuuu"])#prints value associated with key ""
 
 #sets methods in python
 
@@ -422,7 +421,7 @@ print (raghav.company)
 print (tanmay.company)
 print (deepti.company)
 print (mini.company)
-employee.company = "space scientist"
+employee.company = "suuuu"
 print (raghav.company)
 print (tanmay.company)
 print (deepti.company)
